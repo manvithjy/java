@@ -1,0 +1,109 @@
+=======================================================================
+Hibernate:
+--------------------------------
+1. What is ORM, Why ORM required
+2. Hibernate Architecture and Bootstrapping of Hibernate
+3. Bootstrapping Object
+    a. Configuration
+    b. SessionFactory
+    c. Session
+    d. Transaction
+4. Hibernate configuration in hibernate.cfg.xml file
+5. What is Hibernate dialect?
+6. JPA and Hibernate
+7. @Entity, @Id, @Table, @Column, @GeneratedValue
+8. Mapping file - using Ex. student.hbm.xml
+9. Inheritance mapping - 
+10. One to One association
+11. One to Many association
+12. What is cashing?
+==========================================================
+
+Spring:
+-----------------------------
+1. Overview  of Spring Technology 
+2. Managing  Beans, The  Spring Container
+3. IoC and DI
+4. Configuration Metadata  - XML
+5. Working  with Properties
+6. Configuring Value Properties, Property Conversions, Setter/Constructor Injection
+7. Spring Expression Language (SpEL)
+8. The Spring Container and API
+    a. ApplicationContext
+    b. ClassPathXmlApplicationContext, AnnotationConfigApplicationContext
+9. Bean Scope and Lifecycle
+10. Annotation Driven Configuration
+    a. Stereotypes: @Component,  @Service,  @Controller,  @Repository
+11.Autowiring
+    a. @Configuration, @ Bean, and @VaIue     
+    b. Autowiring in Configuration Classes
+    c. Mixing XML Configuraitan and @Configuration
+12. Overview of Spring database support
+    a. Spring's abstraction for dao classes
+    b. JdbcTemplate
+    c. RowMapper
+13. Spring Web MVC Overview, Capabilities, Architecture
+14. Spring MVC Basics
+    a. DispatcherServlet, Configuartion, 
+    b. Controllers,  @ControlIer,  Handler Methods
+    @RequestParam and Parameter Binding
+    c. View Revolvers
+    d. Writing Controllers, @ContraIler, @RequestMapping, @RequestParam, @PathVariable
+15. Introduction to REST
+    a. Understanding  REST Design Principles
+    b. Resource based URIs
+    c. Rest Responses
+    d. Status Codes
+    e. HTTP  Methods
+16. Working with Spring REST
+    a.Creating Resources on servers
+    b. Working  JSON Responses
+    c. Accessing Path Parameters, REST Parameters, Query Parameters 
+    d. Performing CRUD operations on Resources 
+    e. Handling Exceptions
+    f. Testing REST API with Postman
+===================================
+
+Spring Boot:
+------------------------
+1. Introduction to Spring Boot
+    a. Intro to Spring Boot - What is Spring Boot and What It Does
+    b. Advantages / Features of Spring Boot
+    c. @SpringBootApplication=@Configuration + @ComponentScan + @EnableAutoConfiguration
+    d. SpringApplication.run() method
+    e. CommandLineRunner / ApplicationRunner (watch the video I shared)
+2. Configuration and Customization, Devtools
+    a. Working with Properties - YAML and .properties
+    b. Advantages of YAML over .properties files
+    c. Auto-configuration Overview
+    d. Need of DevTools
+3. Creating profiles in spring boot
+    a. Need of profiles?
+    b. Creating profiles using .yml and .properties files
+    c. Selecting specific profile at runtime
+4. Developing REST APIs 
+    a. DispatcherServlet Review
+    b. Web Starters and Configuration spring-boot-starter-web
+    c. Using Embedded Servers (Tomcat, Netty)
+    d. Annotations
+    e. @GetMapping
+    f. @PostMapping
+    g. @PutMapping
+    h. @DeleteMapping
+5. Handling exceptions
+    a. @ExceptionHandler
+    b. @ControllerAdvice
+    c. When to use @ControllerAdvice?
+6. Spring Boot Database Support and CRUD operations
+    a. Basic Auto-configuration - DataSource 
+    b. Configuration Properties
+    c. Spring Boot's JPA Support - spring-boot-starter-data-jpa
+    d. Using Spring Boot Data - CrudRepository/JpaRepository
+    e. Defining Queries with Spring Boot Data
+    f. @Query annotation
+7. Actuator 
+    a. Actuator Overview and Capabilities
+    b. Actuator Endpoints
+    c. Enabling and disabling endpoints
+    d. Creating Custom Actuators Endpoint
+===========================================================
